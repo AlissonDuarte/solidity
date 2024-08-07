@@ -1,4 +1,5 @@
 pytest/*
 build/*
+test/*
 truffle-config.js
 migrations/*
