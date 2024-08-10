@@ -20,7 +20,7 @@ contract Required {
         require(msg.value == price, "Incorrect amount sent");
         require(address(this).balance >= price, "Insuficient balance to complete the sell");
         
-        //makeTransfer();
+        makeTransfer();
     }
 
     function makeTransfer() private {
